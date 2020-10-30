@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
 def sort(array):
-
     i = 0
-    for key in array:
 
+    for key in array:
         j = i - 1
 
         while j >= 0 and array[j] > key:
